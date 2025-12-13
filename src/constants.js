@@ -22,7 +22,7 @@ import pwLogo from './assets/education_logo/pw.jpeg'
 // Project Section Logo's
 import amazonLogo from './assets/work_logo/amazon.png';
 import apni_shopLogo from './assets/work_logo/apni_shop.png';
-import chatGptLogo from './assets/work_logo/chatGPT.png';
+import livingLineLogo from './assets/work_logo/livingLine.png';
 import flipkartLogo from './assets/work_logo/flipkart.png';
 import foodOrderingLogo from './assets/work_logo/food_ordering.png';
 import quizLogo from './assets/work_logo/quiz.png';
@@ -95,13 +95,12 @@ export const projects = [
 
   {
     id: 1,
-    title: "AI Assistant",
-    description:
-      "Developed a responsive ChatGPT clone using React and integrated with Google Gemini AI API for real-time chatbot responses. Created dynamic UI with Dark/Light mode toggle and animated loading indicator for better user experience. Designed clean and modern interface using custom CSS and React Icons for enhanced visual appeal. Implemented Context API for efficient state management including user input, loading state, and chat history.",
-    image: chatGptLogo,
-    tags: ["React JS", "Google Gemini API", "Context API", "React Icons", "Custom CSS"],
-    github: "https://github.com/isimrangupta/chatGPT-Clone",
-    webapp: "https://chat-gpt-clone-one-blond.vercel.app/",
+    title: "LivingLines Website",
+     description:"Built a fully responsive LivingLines website using Next.js and Tailwind CSS. Implemented dynamic Hero section with Swiper slides, Marquee animation with useState/useEffect, Gallery & Testimonials from JSON data, Video Banner with CTA, Services & Design Process sections. Focused on responsive design, modern UI practices, and deployed on Vercel.",
+    image: livingLineLogo,
+     tags: ["Next.js", "React", "Tailwind CSS", "Swiper JS", "useState", "useEffect", "Responsive Design", "JSON Data", "Video Banner", "Gallery", "Testimonials"],
+    github: "https://github.com/isimrangupta/LivingLines-website",
+    webapp: "https://living-lines-website.vercel.app/",
   },
 
   {
