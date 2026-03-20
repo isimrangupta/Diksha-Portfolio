@@ -25,7 +25,7 @@ import apni_shopLogo from './assets/work_logo/apni_shop.png';
 import livingLineLogo from './assets/work_logo/livingLine.png';
 import flipkartLogo from './assets/work_logo/flipkart.png';
 import foodOrderingLogo from './assets/work_logo/food_ordering.png';
-import quizLogo from './assets/work_logo/quiz.png';
+import chatgpt from './assets/work_logo/chatgpt_clone.png';
 import rockpaperLogo from './assets/work_logo/rock_paper.png';
 import tictacLogo from './assets/work_logo/tic-tac.png';
 import weatherLogo from './assets/work_logo/weather_app.png';
@@ -105,13 +105,13 @@ export const projects = [
 
   {
     id: 2,
-    title: "Quiz App",
+    title: "AI Assistant",
     description:
-      "Created an interactive quiz application using HTML, CSS, and JavaScript with a clean user interface. Implemented multiple-choice questions with real-time answer validation and instant feedback. Designed a mobile-responsive layout for smooth quiz interaction across all devices. Implemented a scoring system that provides immediate feedback after quiz completion.",
-    image: quizLogo,
-    tags: ["HTML", "CSS", "JavaScript"],
-    github: "https://github.com/isimrangupta/Quiz-App",
-    webapp: "https://quiz-app-kappa-sand.vercel.app/",
+      "Developed a responsive ChatGPT clone using React, integrated with Google Gemini AI API to deliver real-time chatbot responses. Designed a clean and modern user interface with custom CSS and React Icons, enhancing overall visual appeal. Implemented dark/light mode toggle and animated loading indicators to improve user experience. Managed application state efficiently using Context API, handling user input, loading states, and chat history seamlessly.",
+    image: chatgpt,
+    tags: ["ReactJS", "CSS", "Context API", "Responsive UI", "Gemini API"],
+    github: "https://github.com/isimrangupta/chatGPT-Clone",
+    webapp: " https://chat-gpt-clone-one-blond.vercel.app/",
   },
 
   {
