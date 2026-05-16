@@ -19,6 +19,7 @@ import ignouLogo from "./assets/education_logo/ignouLogo.png";
 import pwLogo from "./assets/education_logo/pw.jpeg";
 
 // Project Section Logo's
+import captionGeneratorLogo from "./assets/work_logo/ai-caption-generator.png";
 import amazonLogo from "./assets/work_logo/amazon.png";
 import apni_shopLogo from "./assets/work_logo/apni_shop.png";
 import livingLineLogo from "./assets/work_logo/livingLine.png";
@@ -92,7 +93,31 @@ export const projects = [
   },
 
   {
-    id: 1,
+    id: 2,
+    title: "AI Caption",
+    description:
+      "Built a full-stack SaaS application where users can sign up, upload images, and instantly receive creative AI-generated captions powered by Google Gemini API. Features JWT authentication, personal dashboard, and MongoDB database — deployed on Vercel.",
+    image: captionGeneratorLogo,
+    tags: [
+      " nextjs",
+      "tailwindcss",
+      "gemini-api",
+      "mongodb",
+      "nodejs",
+      "expressjs",
+      "full-stack",
+      "ai",
+      "caption-generator",
+      "react",
+      "javascript",
+      "vercel",
+    ],
+    github: "https://github.com/isimrangupta/ai-caption-generator",
+    webapp: "https://ai-caption-generator-omega.vercel.app/",
+  },
+
+  {
+    id: 2,
     title: "LivingLines Website",
     description:
       "Built a fully responsive LivingLines website using Next.js and Tailwind CSS. Implemented dynamic Hero section with Swiper slides, Marquee animation with useState/useEffect, Gallery & Testimonials from JSON data, Video Banner with CTA, Services & Design Process sections. Focused on responsive design, modern UI practices, and deployed on Vercel.",
@@ -115,7 +140,7 @@ export const projects = [
   },
 
   {
-    id: 2,
+    id: 3,
     title: "AI Assistant",
     description:
       "Developed a responsive ChatGPT clone using React, integrated with Google Gemini AI API to deliver real-time chatbot responses. Designed a clean and modern user interface with custom CSS and React Icons, enhancing overall visual appeal. Implemented dark/light mode toggle and animated loading indicators to improve user experience. Managed application state efficiently using Context API, handling user input, loading states, and chat history seamlessly.",
@@ -126,7 +151,7 @@ export const projects = [
   },
 
   {
-    id: 3,
+    id: 4,
     title: "Snackify Website",
     description:
       "Developed a responsive food and grocery e-commerce web application using Next.js and TypeScript. Users can browse products, explore categories, and add items to the cart with a basic checkout flow. Implemented reusable UI components and structured the project using the App Router for better scalability and maintainability.",
@@ -136,27 +161,19 @@ export const projects = [
     webapp: " https://snackify-next-js.vercel.app/",
   },
 
-  
-
   {
-    id: 4,
+    id: 5,
     title: "Limbo Mini Game",
     description:
       "Developed a Limbo-style mini betting game using React.js where users can enter a bet amount and set a target multiplier. The game generates a random crash multiplier, and users win or lose based on whether the target is reached. Implemented real-time multiplier display, round information, and crash history tracking. Built a responsive and clean user interface using Tailwind CSS while managing dynamic state and game logic with JavaScript",
     image: limboGameLogo,
-    tags: [
-      "React JS",
-      "JavaScript (ES6+)",
-      "Tailwind CSS",
-      "HTML5",
-      "Vite",
-    ],
+    tags: ["React JS", "JavaScript (ES6+)", "Tailwind CSS", "HTML5", "Vite"],
     github: "https://github.com/isimrangupta/Limbo-Game",
     webapp: "https://limbo-game-three.vercel.app/",
   },
 
   {
-    id: 5,
+    id: 6,
     title: "ApniShop Ecommerce",
     description:
       "Implemented Add to Cart feature using React state hooks for real-time updates and cart management. Built a fully responsive e-commerce platform using ReactJS, featuring smooth navigation with React Router DOM. Developed product listing pages with detailed views, dynamic filtering, and search functionality. Integrated product search functionality to filter items based on user input.",
@@ -173,7 +190,7 @@ export const projects = [
   },
 
   {
-    id: 6,
+    id: 7,
     title: "Amazon Clone",
     description:
       "Built a basic responsive clone of Amazon using only HTML and CSS. The layout includes a navigation bar, product grid, banner section, and footer. The design is mobile-friendly and provides a simple representation of the original Amazon website structure.",
@@ -183,9 +200,8 @@ export const projects = [
     webapp: "https://amazon-clone-rust-two.vercel.app",
   },
 
- 
   {
-    id: 7,
+    id: 8,
     title: "Weather App",
     description:
       "Developed a responsive weather forecast application using HTML, CSS, and JavaScript. The app fetches real-time weather data using an external API and displays city-wise temperature, weather condition, and icon. It is fully responsive and works across devices.",
@@ -195,7 +211,7 @@ export const projects = [
     webapp: "https://weather-api-five-flame.vercel.app",
   },
   {
-    id: 8,
+    id: 9,
     title: "Rock Paper Scissors Game",
     description:
       "Created an interactive Rock Paper Scissors game using HTML, CSS, and JavaScript. The game allows the user to play against the computer with live score updates and animated results. The UI is mobile-friendly and fully responsive.",
