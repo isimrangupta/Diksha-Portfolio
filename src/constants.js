@@ -20,17 +20,14 @@ import pwLogo from "./assets/education_logo/pw.jpeg";
 
 // Project Section Logo's
 import captionGeneratorLogo from "./assets/work_logo/ai-caption-generator.png";
-import amazonLogo from "./assets/work_logo/amazon.png";
 import apni_shopLogo from "./assets/work_logo/apni_shop.png";
 import livingLineLogo from "./assets/work_logo/livingLine.png";
-import flipkartLogo from "./assets/work_logo/flipkart.png";
 import foodOrderingLogo from "./assets/work_logo/food_ordering.png";
 import chatgpt from "./assets/work_logo/chatgpt_clone.png";
-import rockpaperLogo from "./assets/work_logo/rock_paper.png";
-import tictacLogo from "./assets/work_logo/tic-tac.png";
 import weatherLogo from "./assets/work_logo/weather_app.png";
 import snackifyLogo from "./assets/work_logo/snackify.png";
 import limboGameLogo from "./assets/work_logo/limbo-game.png";
+import aiChatgptLogo from "./assets/work_logo/ai_chatgpt.png"
 
 export const SkillsInfo = [
   {
@@ -93,6 +90,30 @@ export const projects = [
   },
 
   {
+    id: 1,
+    title: "AI Chat Application",
+    description:
+      "Built a full-stack AI-powered chat application using the MERN stack with JWT-based authentication for secure user registration and login. Developed a multi-chat conversation system allowing users to create, manage, and delete multiple named chat sessions, with chat history persisted in MongoDB Atlas and restored across sessions. Integrated Socket.IO for real-time bidirectional communication between users and the AI, delivering a seamless ChatGPT-like experience. Implemented Pinecone vector database for storing embeddings and retrieving relevant conversation context for more accurate, context-aware AI responses.",
+    image: aiChatgptLogo,
+    tags: [
+      "mongodb",
+      "expressjs",
+      "reactjs",
+      "nodejs",
+      "socket.io",
+      "pinecone",
+      "jwt-auth",
+      "mern-stack",
+      "ai",
+      "chat-application",
+      "javascript",
+      "vector-database",
+    ],
+    github: "https://github.com/isimrangupta/AI-ChatGPT",
+    webapp: "https://ai-chat-gpt-frontend.vercel.app/",
+  },
+
+  {
     id: 2,
     title: "AI Caption",
     description:
@@ -117,7 +138,7 @@ export const projects = [
   },
 
   {
-    id: 2,
+    id: 3,
     title: "LivingLines Website",
     description:
       "Built a fully responsive LivingLines website using Next.js and Tailwind CSS. Implemented dynamic Hero section with Swiper slides, Marquee animation with useState/useEffect, Gallery & Testimonials from JSON data, Video Banner with CTA, Services & Design Process sections. Focused on responsive design, modern UI practices, and deployed on Vercel.",
@@ -140,7 +161,7 @@ export const projects = [
   },
 
   {
-    id: 3,
+    id: 4,
     title: "AI Assistant",
     description:
       "Developed a responsive ChatGPT clone using React, integrated with Google Gemini AI API to deliver real-time chatbot responses. Designed a clean and modern user interface with custom CSS and React Icons, enhancing overall visual appeal. Implemented dark/light mode toggle and animated loading indicators to improve user experience. Managed application state efficiently using Context API, handling user input, loading states, and chat history seamlessly.",
@@ -151,7 +172,7 @@ export const projects = [
   },
 
   {
-    id: 4,
+    id: 5,
     title: "Snackify Website",
     description:
       "Developed a responsive food and grocery e-commerce web application using Next.js and TypeScript. Users can browse products, explore categories, and add items to the cart with a basic checkout flow. Implemented reusable UI components and structured the project using the App Router for better scalability and maintainability.",
@@ -162,7 +183,7 @@ export const projects = [
   },
 
   {
-    id: 5,
+    id: 6,
     title: "Limbo Mini Game",
     description:
       "Developed a Limbo-style mini betting game using React.js where users can enter a bet amount and set a target multiplier. The game generates a random crash multiplier, and users win or lose based on whether the target is reached. Implemented real-time multiplier display, round information, and crash history tracking. Built a responsive and clean user interface using Tailwind CSS while managing dynamic state and game logic with JavaScript",
@@ -173,7 +194,7 @@ export const projects = [
   },
 
   {
-    id: 6,
+    id: 7,
     title: "ApniShop Ecommerce",
     description:
       "Implemented Add to Cart feature using React state hooks for real-time updates and cart management. Built a fully responsive e-commerce platform using ReactJS, featuring smooth navigation with React Router DOM. Developed product listing pages with detailed views, dynamic filtering, and search functionality. Integrated product search functionality to filter items based on user input.",
@@ -190,17 +211,6 @@ export const projects = [
   },
 
   {
-    id: 7,
-    title: "Amazon Clone",
-    description:
-      "Built a basic responsive clone of Amazon using only HTML and CSS. The layout includes a navigation bar, product grid, banner section, and footer. The design is mobile-friendly and provides a simple representation of the original Amazon website structure.",
-    image: amazonLogo,
-    tags: ["HTML", "CSS", "Responsive Design"],
-    github: "https://github.com/isimrangupta/Amazon-Clone",
-    webapp: "https://amazon-clone-rust-two.vercel.app",
-  },
-
-  {
     id: 8,
     title: "Weather App",
     description:
@@ -210,14 +220,5 @@ export const projects = [
     github: "https://github.com/isimrangupta/Weather-Api",
     webapp: "https://weather-api-five-flame.vercel.app",
   },
-  {
-    id: 9,
-    title: "Rock Paper Scissors Game",
-    description:
-      "Created an interactive Rock Paper Scissors game using HTML, CSS, and JavaScript. The game allows the user to play against the computer with live score updates and animated results. The UI is mobile-friendly and fully responsive.",
-    image: rockpaperLogo,
-    tags: ["HTML", "CSS", "JavaScript", "Game", "Responsive"],
-    github: "https://github.com/isimrangupta/Rock-Paper-Scissors-game",
-    webapp: "https://rock-paper-scissors-game-nine-tau.vercel.app",
-  },
+ 
 ];
