@@ -1,13 +1,13 @@
-import { Typewriter } from 'react-simple-typewriter';
-import Tilt from 'react-parallax-tilt';
-import profileImage from '../../assets/profile.jpg'
+import { Typewriter } from "react-simple-typewriter";
+import Tilt from "react-parallax-tilt";
+import profileImage from "../../assets/profile.jpg";
 
 const About = () => {
   return (
     <section
-      id='about'
-      className="py-4 px-[7vw] md:px-[7vw] lg:px-[10vw] font-sans mt-16 md:mt-24 lg:mt-32">
-
+      id="about"
+      className="py-4 px-[7vw] md:px-[7vw] lg:px-[10vw] font-sans mt-16 md:mt-24 lg:mt-32"
+    >
       <div className="flex flex-col-reverse  md:flex-row justify-between items-center gap-2.5 ">
         {/* Left Side */}
         <div className="md:w-1/2 md:text-left mt-8 md:mt-0 ">
@@ -23,11 +23,7 @@ const About = () => {
           <h3 className="text-3xl sm:text-2xl md:text-4xl font-semibold mb-4 text-[#c4b5fd] drop-shadow-md leading-tight">
             <span className="text-white">I am a </span>
             <Typewriter
-              words={[
-                'Frontend Developer',
-                'React Developer',
-                'UI Developer'
-              ]}
+              words={["Full Stack Developer", "React Developer", "MERN Stack Developer"]}
               loop={0}
               cursor
               cursorStyle="|"
@@ -39,25 +35,36 @@ const About = () => {
 
           {/* About me paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed text-justify">
-            I am a front-end developer with a solid foundation in HTML, CSS, JavaScript, Bootstrap, Tailwind CSS, and React. My passion for user interface design inspired me to focus deeply on front-end development, where I enjoy building clean, responsive, and interactive web applications. I have completed a full-stack development course from PW Skills, which introduced me to both front-end and back-end technologies. To strengthen my front-end skills, I have built several practice projects, including a food ordering website using React. I am eager to start my professional journey and apply my skills to create user-friendly digital experiences.
+            I am a Full Stack Developer with a strong foundation in React.js,
+            Next.js, Node.js, Express.js, and MongoDB. My passion for building
+            complete, user-friendly digital products led me to learn both
+            front-end and back-end technologies through a full-stack development
+            course from PW Skills. I enjoy building clean, responsive interfaces
+            as well as designing the APIs and databases that power them. I have
+            built and deployed several full-stack projects, including an
+            AI-powered chat application with real-time messaging (MERN +
+            Socket.IO), an AI caption generator using the Google Gemini API, and
+            a food ordering web application — all live and available on GitHub.
+            I am eager to start my professional journey and apply my skills to
+            build user-friendly, end-to-end digital experiences.
           </p>
 
           {/* Resume Button */}
           <a
-            href='/Diksha_gupta_resume.pdf'
+            href="/Diksha_Gupta_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
             style={{
-              background: 'linear-gradient(90deg, #8245ec, #a855f7)',
-              boxShadow: '0 0 2px #8245ec, 0 0 2px #8245ec, 0 0 40px #8245ec',
+              background: "linear-gradient(90deg, #8245ec, #a855f7)",
+              boxShadow: "0 0 2px #8245ec, 0 0 2px #8245ec, 0 0 40px #8245ec",
             }}
           >
             DOWNLOAD RESUME
           </a>
         </div>
 
-           {/* Right Side */}
+        {/* Right Side */}
         <div className="md:w-1/2 flex justify-center md:justify-end">
           <Tilt
             className="w-40 h-40 sm:w-64 sm:h-64 md:w-[30rem] md:h-[30rem] border-4 border-purple-700 rounded-full"
@@ -76,9 +83,8 @@ const About = () => {
           </Tilt>
         </div>
       </div>
-
     </section>
-  )
-}
+  );
+};
 
 export default About;
