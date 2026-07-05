@@ -1,63 +1,60 @@
 // Skills Section Logo's
-import htmlLogo from './assets/tech_logo/html.png';
-import cssLogo from './assets/tech_logo/css.png';
-import sassLogo from './assets/tech_logo/sass.png';
-import javascriptLogo from './assets/tech_logo/javascript.png';
-import reactjsLogo from './assets/tech_logo/reactjs.png';
-import reduxLogo from './assets/tech_logo/redux.png';
-import nextjsLogo from './assets/tech_logo/nextjs.png';
-import tailwindcssLogo from './assets/tech_logo/tailwindcss.png';
-import bootstrapLogo from './assets/tech_logo/bootstrap.png';
-import gitLogo from './assets/tech_logo/git.png';
-import githubLogo from './assets/tech_logo/github.png';
-import vscodeLogo from './assets/tech_logo/vscode.png';
-import postmanLogo from './assets/tech_logo/postman.png';
-import vercelLogo from './assets/tech_logo/vercel.png';
+import htmlLogo from "./assets/tech_logo/html.png";
+import cssLogo from "./assets/tech_logo/css.png";
+import sassLogo from "./assets/tech_logo/sass.png";
+import javascriptLogo from "./assets/tech_logo/javascript.png";
+import reactjsLogo from "./assets/tech_logo/reactjs.png";
+import reduxLogo from "./assets/tech_logo/redux.png";
+import nextjsLogo from "./assets/tech_logo/nextjs.png";
+import tailwindcssLogo from "./assets/tech_logo/tailwindcss.png";
+import bootstrapLogo from "./assets/tech_logo/bootstrap.png";
+import gitLogo from "./assets/tech_logo/git.png";
+import githubLogo from "./assets/tech_logo/github.png";
+import vscodeLogo from "./assets/tech_logo/vscode.png";
+import postmanLogo from "./assets/tech_logo/postman.png";
+import vercelLogo from "./assets/tech_logo/vercel.png";
 
 // Education Section Logo's
-import ignouLogo from './assets/education_logo/ignouLogo.png';
-import pwLogo from './assets/education_logo/pw.jpeg'
-
+import ignouLogo from "./assets/education_logo/ignouLogo.png";
+import pwLogo from "./assets/education_logo/pw.jpeg";
 
 // Project Section Logo's
-import amazonLogo from './assets/work_logo/amazon.png';
-import apni_shopLogo from './assets/work_logo/apni_shop.png';
-import chatGptLogo from './assets/work_logo/chatGPT.png';
-import flipkartLogo from './assets/work_logo/flipkart.png';
-import foodOrderingLogo from './assets/work_logo/food_ordering.png';
-import quizLogo from './assets/work_logo/quiz.png';
-import rockpaperLogo from './assets/work_logo/rock_paper.png';
-import tictacLogo from './assets/work_logo/tic-tac.png';
-import weatherLogo from './assets/work_logo/weather_app.png';
-
+import captionGeneratorLogo from "./assets/work_logo/ai-caption-generator.png";
+import apni_shopLogo from "./assets/work_logo/apni_shop.png";
+import livingLineLogo from "./assets/work_logo/livingLine.png";
+import foodOrderingLogo from "./assets/work_logo/food_ordering.png";
+import chatgpt from "./assets/work_logo/chatgpt_clone.png";
+import weatherLogo from "./assets/work_logo/weather_app.png";
+import snackifyLogo from "./assets/work_logo/snackify.png";
+import limboGameLogo from "./assets/work_logo/limbo-game.png";
+import aiChatgptLogo from "./assets/work_logo/ai_chatgpt.png"
 
 export const SkillsInfo = [
   {
-    title: 'Frontend',
+    title: "Frontend",
     skills: [
-      { name: 'HTML', logo: htmlLogo },
-      { name: 'CSS', logo: cssLogo },
-      { name: 'SASS', logo: sassLogo },
-      { name: 'JavaScript', logo: javascriptLogo },
-      { name: 'React JS', logo: reactjsLogo },
-      { name: 'Redux', logo: reduxLogo },
-      { name: 'Next JS', logo: nextjsLogo },
-      { name: 'Tailwind CSS', logo: tailwindcssLogo },
-      { name: 'Bootstrap', logo: bootstrapLogo },
+      { name: "HTML", logo: htmlLogo },
+      { name: "CSS", logo: cssLogo },
+      { name: "SASS", logo: sassLogo },
+      { name: "JavaScript", logo: javascriptLogo },
+      { name: "React JS", logo: reactjsLogo },
+      { name: "Redux", logo: reduxLogo },
+      { name: "Next JS", logo: nextjsLogo },
+      { name: "Tailwind CSS", logo: tailwindcssLogo },
+      { name: "Bootstrap", logo: bootstrapLogo },
     ],
   },
   {
-    title: 'Tools',
+    title: "Tools",
     skills: [
-      { name: 'Git', logo: gitLogo },
-      { name: 'GitHub', logo: githubLogo },
-      { name: 'VS Code', logo: vscodeLogo },
-      { name: 'Postman', logo: postmanLogo },
-      { name: 'Vercel', logo: vercelLogo },
+      { name: "Git", logo: gitLogo },
+      { name: "GitHub", logo: githubLogo },
+      { name: "VS Code", logo: vscodeLogo },
+      { name: "Postman", logo: postmanLogo },
+      { name: "Vercel", logo: vercelLogo },
     ],
   },
 ];
-
 
 export const education = [
   {
@@ -78,7 +75,6 @@ export const education = [
     desc: "I have completed the Full Stack Web Development course from PW Skills with a strong focus on Frontend Development. I gained hands-on experience building responsive and user-friendly interfaces using HTML, CSS, JavaScript, React, and modern tools like Tailwind CSS and Bootstrap. My strength lies in creating clean, accessible, and visually engaging frontend designs. I am confident in developing high-quality frontend applications that provide great user experience.",
     degree: "Full Stack Web Development (Certification Course)",
   },
-
 ];
 
 export const projects = [
@@ -95,60 +91,127 @@ export const projects = [
 
   {
     id: 1,
-    title: "AI Assistant",
+    title: "AI Chat Application",
     description:
-      "Developed a responsive ChatGPT clone using React and integrated with Google Gemini AI API for real-time chatbot responses. Created dynamic UI with Dark/Light mode toggle and animated loading indicator for better user experience. Designed clean and modern interface using custom CSS and React Icons for enhanced visual appeal. Implemented Context API for efficient state management including user input, loading state, and chat history.",
-    image: chatGptLogo,
-    tags: ["React JS", "Google Gemini API", "Context API", "React Icons", "Custom CSS"],
-    github: "https://github.com/isimrangupta/chatGPT-Clone",
-    webapp: "https://chat-gpt-clone-one-blond.vercel.app/",
+      "Built a full-stack AI-powered chat application using the MERN stack with JWT-based authentication for secure user registration and login. Developed a multi-chat conversation system allowing users to create, manage, and delete multiple named chat sessions, with chat history persisted in MongoDB Atlas and restored across sessions. Integrated Socket.IO for real-time bidirectional communication between users and the AI, delivering a seamless ChatGPT-like experience. Implemented Pinecone vector database for storing embeddings and retrieving relevant conversation context for more accurate, context-aware AI responses.",
+    image: aiChatgptLogo,
+    tags: [
+      "mongodb",
+      "expressjs",
+      "reactjs",
+      "nodejs",
+      "socket.io",
+      "pinecone",
+      "jwt-auth",
+      "mern-stack",
+      "ai",
+      "chat-application",
+      "javascript",
+      "vector-database",
+    ],
+    github: "https://github.com/isimrangupta/AI-ChatGPT",
+    webapp: "https://ai-chat-gpt-frontend.vercel.app/",
   },
 
   {
     id: 2,
-    title: "Quiz App",
+    title: "AI Caption",
     description:
-      "Created an interactive quiz application using HTML, CSS, and JavaScript with a clean user interface. Implemented multiple-choice questions with real-time answer validation and instant feedback. Designed a mobile-responsive layout for smooth quiz interaction across all devices. Implemented a scoring system that provides immediate feedback after quiz completion.",
-    image: quizLogo,
-    tags: ["HTML", "CSS", "JavaScript"],
-    github: "https://github.com/isimrangupta/Quiz-App",
-    webapp: "https://quiz-app-kappa-sand.vercel.app/",
+      "Built a full-stack SaaS application where users can sign up, upload images, and instantly receive creative AI-generated captions powered by Google Gemini API. Features JWT authentication, personal dashboard, and MongoDB database — deployed on Vercel.",
+    image: captionGeneratorLogo,
+    tags: [
+      " nextjs",
+      "tailwindcss",
+      "gemini-api",
+      "mongodb",
+      "nodejs",
+      "expressjs",
+      "full-stack",
+      "ai",
+      "caption-generator",
+      "react",
+      "javascript",
+      "vercel",
+    ],
+    github: "https://github.com/isimrangupta/ai-caption-generator",
+    webapp: "https://ai-caption-generator-omega.vercel.app/",
   },
 
   {
     id: 3,
+    title: "LivingLines Website",
+    description:
+      "Built a fully responsive LivingLines website using Next.js and Tailwind CSS. Implemented dynamic Hero section with Swiper slides, Marquee animation with useState/useEffect, Gallery & Testimonials from JSON data, Video Banner with CTA, Services & Design Process sections. Focused on responsive design, modern UI practices, and deployed on Vercel.",
+    image: livingLineLogo,
+    tags: [
+      "Next.js",
+      "React",
+      "Tailwind CSS",
+      "Swiper JS",
+      "useState",
+      "useEffect",
+      "Responsive Design",
+      "JSON Data",
+      "Video Banner",
+      "Gallery",
+      "Testimonials",
+    ],
+    github: "https://github.com/isimrangupta/LivingLines-website",
+    webapp: "https://living-lines-website.vercel.app/",
+  },
+
+  {
+    id: 4,
+    title: "AI Assistant",
+    description:
+      "Developed a responsive ChatGPT clone using React, integrated with Google Gemini AI API to deliver real-time chatbot responses. Designed a clean and modern user interface with custom CSS and React Icons, enhancing overall visual appeal. Implemented dark/light mode toggle and animated loading indicators to improve user experience. Managed application state efficiently using Context API, handling user input, loading states, and chat history seamlessly.",
+    image: chatgpt,
+    tags: ["ReactJS", "CSS", "Context API", "Responsive UI", "Gemini API"],
+    github: "https://github.com/isimrangupta/chatGPT-Clone",
+    webapp: " https://chat-gpt-clone-one-blond.vercel.app/",
+  },
+
+  {
+    id: 5,
+    title: "Snackify Website",
+    description:
+      "Developed a responsive food and grocery e-commerce web application using Next.js and TypeScript. Users can browse products, explore categories, and add items to the cart with a basic checkout flow. Implemented reusable UI components and structured the project using the App Router for better scalability and maintainability.",
+    image: snackifyLogo,
+    tags: ["Next.js", "React.js", "TypeScript", "CSS / Tailwind CSS", "JSON"],
+    github: "https://github.com/isimrangupta/Snackify-next.js",
+    webapp: " https://snackify-next-js.vercel.app/",
+  },
+
+  {
+    id: 6,
+    title: "Limbo Mini Game",
+    description:
+      "Developed a Limbo-style mini betting game using React.js where users can enter a bet amount and set a target multiplier. The game generates a random crash multiplier, and users win or lose based on whether the target is reached. Implemented real-time multiplier display, round information, and crash history tracking. Built a responsive and clean user interface using Tailwind CSS while managing dynamic state and game logic with JavaScript",
+    image: limboGameLogo,
+    tags: ["React JS", "JavaScript (ES6+)", "Tailwind CSS", "HTML5", "Vite"],
+    github: "https://github.com/isimrangupta/Limbo-Game",
+    webapp: "https://limbo-game-three.vercel.app/",
+  },
+
+  {
+    id: 7,
     title: "ApniShop Ecommerce",
     description:
       "Implemented Add to Cart feature using React state hooks for real-time updates and cart management. Built a fully responsive e-commerce platform using ReactJS, featuring smooth navigation with React Router DOM. Developed product listing pages with detailed views, dynamic filtering, and search functionality. Integrated product search functionality to filter items based on user input.",
     image: apni_shopLogo,
-    tags: ["React JS", "React Router DOM", "State Hooks", "Search Filter", "Responsive UI"],
+    tags: [
+      "React JS",
+      "React Router DOM",
+      "State Hooks",
+      "Search Filter",
+      "Responsive UI",
+    ],
     github: "https://github.com/isimrangupta/ApniShop-ecommerce",
     webapp: "https://apni-shop-ecommerce-ikng.vercel.app/",
   },
 
   {
-    id: 4,
-    title: "Amazon Clone",
-    description:
-      "Built a basic responsive clone of Amazon using only HTML and CSS. The layout includes a navigation bar, product grid, banner section, and footer. The design is mobile-friendly and provides a simple representation of the original Amazon website structure.",
-    image: amazonLogo,
-    tags: ["HTML", "CSS", "Responsive Design"],
-    github: "https://github.com/isimrangupta/Amazon-Clone",
-    webapp: "https://amazon-clone-rust-two.vercel.app",
-  },
-
-  {
-    id: 5,
-    title: "Flipkart Clone",
-    description:
-      "Created a simple and responsive Flipkart homepage layout using only HTML and CSS. It features a header, category banners, and product showcase. The design adapts to different screen sizes for better user experience.",
-    image: flipkartLogo,
-    tags: ["HTML", "CSS", "Responsive Design"],
-    github: "https://github.com/isimrangupta/Flipkart-clone",
-    webapp: "https://flipkart-clone-eta-five.vercel.app",
-  },
-  {
-    id: 6,
+    id: 8,
     title: "Weather App",
     description:
       "Developed a responsive weather forecast application using HTML, CSS, and JavaScript. The app fetches real-time weather data using an external API and displays city-wise temperature, weather condition, and icon. It is fully responsive and works across devices.",
@@ -157,25 +220,5 @@ export const projects = [
     github: "https://github.com/isimrangupta/Weather-Api",
     webapp: "https://weather-api-five-flame.vercel.app",
   },
-  {
-    id: 7,
-    title: "Rock Paper Scissors Game",
-    description:
-      "Created an interactive Rock Paper Scissors game using HTML, CSS, and JavaScript. The game allows the user to play against the computer with live score updates and animated results. The UI is mobile-friendly and fully responsive.",
-    image: rockpaperLogo,
-    tags: ["HTML", "CSS", "JavaScript", "Game", "Responsive"],
-    github: "https://github.com/isimrangupta/Rock-Paper-Scissors-game",
-    webapp: "https://rock-paper-scissors-game-nine-tau.vercel.app",
-  },
-  {
-    id: 8,
-    title: "Tic Tac Toe Game",
-    description:
-      "Designed and developed a responsive Tic Tac Toe game using HTML, CSS, and JavaScript. Features include game start, reset, and new game buttons. Real-time win detection, draw condition, and turn indication are also implemented to enhance gameplay.",
-    image: tictacLogo,
-    tags: ["HTML", "CSS", "JavaScript", "Game", "Responsive"],
-    github: "https://github.com/isimrangupta/Tic-Tac-Toe-game",
-    webapp: "https://tic-tac-toe-game-rho-liard.vercel.app",
-  },
-
-];  
+ 
+];
